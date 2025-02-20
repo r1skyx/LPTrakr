@@ -1,41 +1,19 @@
-# lptrakr
+# LPTrakr
 
-This template should help get you started developing with Vue 3 in Vite.
+**LPTrakr** is a personal project to help me keep track of albums I've listened to, rate/review them, and organize albums I want to listen to in the future. The app also aims to provide recommendations and allow me to manage my listening history.
 
-## Recommended IDE Setup
+## Features (Planned)
+- Track albums I've listened to and rate/review them.
+- Create a "listen list" for albums I want to hear in the future.
+- Implement album recommendations, possibly using AI or the Last.fm API.
+- User authentication to manage personal data.
+- **PWA (Progressive Web App)** in the final version.
+  
+## Tech Stack
+- **Frontend**: Vue.js, Tailwind CSS
+- **Backend**: ASP.NET Core
+- **Database**: MySQL
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Current Status
+This project is in the early stages of development. More features will be added in the future as I continue to build it out.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
