@@ -1,27 +1,32 @@
 <script setup>
 	import { ArrowRightIcon } from '@heroicons/vue/20/solid'
 	import { defineProps } from 'vue'
+	import ListCardItem from './ListCardItem.vue'
 	const props = defineProps({
 		title: String,
-		//data to be decided @todo
-		data: Object,
+		/* data to be decided @todo
+		Possibly:[
+						{
+						id: String,
+							albumCover: String,
+							linkTo: String,
+							rating: [Number, null]
+						}
+					]
+		*/
+		data: Array,
 		linkTo: String,
 	})
 </script>
 
 <template>
-	<div class="card card-dash bg-base-100 w-96">
+	<div class="card card-dash bg-base-100 grid w-full md:w-1/2">
 		<div class="card-body">
-			<h2 class="card-title">{{ title }}</h2>
-			<div class="card">
+			<h2 class="card-title text-xl font-normal">{{ title }}</h2>
+			<hr class="pb-2" />
+			<div class="card grid-flow-row px-2">
 				<div class="flex w-full flex-row flex-wrap justify-between">
-					<!-- Placeholder img @todo -->
-					<img
-						class="size-24"
-						v-for="(album, i) in [1, 2, 3]"
-						:key="i"
-						src="../assets/images/album-cover.webp"
-					/>
+					<ListCardItem v-for="(album, i) in data" :key="i" v-bind="album" />
 				</div>
 			</div>
 			<div class="card-actions justify-end">
