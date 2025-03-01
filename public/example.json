@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Recently listened",
+    "data": [
+      {
+        "id": "asdnj3FDkeFM",
+        "albumCover": "album-cover.webp",
+        "linkTo": "/album/asdnj3FDkeFM",
+        "rating": 4
+      },
+      {
+        "id": "asdnj3FDkeFM",
+        "albumCover": "album-cover.webp",
+        "linkTo": "/album/asdnj3FDkeFM",
+        "rating": 2
+      },
+      {
+        "id": "asdnj3FDkeFM",
+        "albumCover": "album-cover.webp",
+        "linkTo": "/album/asdnj3FDkeFM",
+        "rating": null
+      }
+    ],
+    "linkTo": "/user/reviews"
+  },
+  {
+    "title": "On your listening list",
+    "data": [
+      {
+        "id": "asdnj3FDkeFM",
+        "albumCover": "album-cover.webp",
+        "linkTo": "/album/:id"
+      },
+      {
+        "id": "asdnj3FDkeFM",
+        "albumCover": "album-cover.webp",
+        "linkTo": "/album/:id"
+      },
+      {
+        "id": "asdnj3FDkeFM",
+        "albumCover": "album-cover.webp",
+        "linkTo": "/album/:id"
+      }
+    ],
+    "linkTo": "/user/reviews"
+  }
+]

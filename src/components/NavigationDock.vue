@@ -4,15 +4,15 @@
 
 <template>
 	<div class="dock dock-xl">
-		<button>
+		<button class="flex justify-center align-middle">
 			<HomeIcon class="text-accent size-10" />
 			<span class="dock-label">Home</span>
 		</button>
-		<button>
+		<button class="flex justify-center align-middle">
 			<MagnifyingGlassIcon class="size-10" />
 			<span class="dock-label">Explore</span>
 		</button>
-		<button>
+		<button class="flex justify-center align-middle">
 			<UserCircleIcon class="size-10" />
 			<span class="dock-label">Profile</span>
 		</button>

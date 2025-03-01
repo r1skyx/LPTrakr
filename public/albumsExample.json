@@ -1,0 +1,131 @@
+[
+  {
+    "id": "asdnj3FDkeFM",
+    "albumCover": "album-cover.webp",
+    "linkTo": "/album/asdnj3FDkeFM",
+    "title": "A Tear in the Fabric of Life",
+    "artist": {
+      "name": "Knocked Loose",
+      "id": "ec3a989d-0f2f-4b89-8f60-b7b0765310a6"
+    },
+    "tracks": [
+      {
+        "recording": {
+          "first-release-date": "2021-10-13",
+          "id": "c461d36c-550d-422d-9bae-8160d624bdd0",
+          "title": "Where Light Divides the Holler",
+          "disambiguation": "",
+          "video": false,
+          "length": 222000
+        },
+        "position": 1,
+        "length": 222000,
+        "title": "Where Light Divides the Holler",
+        "id": "dd43b86f-505a-4ae7-873e-02831583dd57",
+        "number": "1"
+      },
+      {
+        "number": "2",
+        "id": "0bcb719c-b4c8-488a-897f-0e91ab6e6b31",
+        "title": "God Knows",
+        "length": 215000,
+        "position": 2,
+        "recording": {
+          "length": 215000,
+          "video": false,
+          "disambiguation": "",
+          "title": "God Knows",
+          "id": "002a67a6-f322-4c8d-84fc-22450c6cb998",
+          "first-release-date": "2021-10-13"
+        }
+      },
+      {
+        "recording": {
+          "video": false,
+          "disambiguation": "",
+          "length": 235000,
+          "first-release-date": "2021-10-13",
+          "title": "Forced to Stay",
+          "id": "6879a7fa-857a-4e90-b588-0a7dc7a6fad1"
+        },
+        "length": 235000,
+        "position": 3,
+        "title": "Forced to Stay",
+        "id": "744cd952-5b1d-48de-b1f9-dfaeaf32c96e",
+        "number": "3"
+      },
+      {
+        "recording": {
+          "id": "2893c84b-fc42-417a-b7cd-d9a1a5c1384d",
+          "title": "Contorted in the Faille",
+          "first-release-date": "2021-10-13",
+          "length": 235000,
+          "disambiguation": "",
+          "video": false
+        },
+        "length": 235000,
+        "position": 4,
+        "title": "Contorted in the Faille",
+        "id": "f0e748bd-b453-4e25-b61e-e8758fcac85c",
+        "number": "4"
+      },
+      {
+        "title": "Return to Passion",
+        "id": "e3ff522c-f3c4-46b1-a5b1-8765a2b6a5fd",
+        "number": "5",
+        "recording": {
+          "disambiguation": "",
+          "video": false,
+          "length": 73000,
+          "first-release-date": "2021-10-13",
+          "id": "4da54fd6-83cd-44e2-ade4-02ba06051d07",
+          "title": "Return to Passion"
+        },
+        "position": 5,
+        "length": 73000
+      },
+      {
+        "title": "Permanent",
+        "id": "a84f9004-10a8-4f77-bf1b-a92af1f216ba",
+        "number": "6",
+        "recording": {
+          "id": "b93067ec-173c-4b20-a488-87c79acd7ac0",
+          "title": "Permanent",
+          "first-release-date": "2021-10-13",
+          "length": 282000,
+          "disambiguation": "",
+          "video": false
+        },
+        "position": 6,
+        "length": 282000
+      }
+    ],
+    "wiki": {
+      "description": "",
+      "published": "2021-10-13"
+    },
+    "rating": 4
+  },
+  {
+    "id": "asdnj3FDkeFM",
+    "albumCover": "album-cover.webp",
+    "linkTo": "/album/asdnj3FDkeFM",
+    "title": "Album Name",
+    "artist": {
+      "name": "Artist Name",
+      "id": "ec3a989d-0f2f-4b89-8f60-b7b0765310a6"
+    },
+    "rating": 2
+  },
+  {
+    "id": "asdnj3FDkeFM",
+    "albumCover": "album-cover.webp",
+    "linkTo": "/album/asdnj3FDkeFM",
+    "title": "Album Name",
+    "artist": {
+      "name": "Artist Name",
+      "id": "ec3a989d-0f2f-4b89-8f60-b7b0765310a6"
+    },
+    "rating": null
+  }
+]

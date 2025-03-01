@@ -1,8 +1,7 @@
 <script setup>
 	import { ArrowRightIcon } from '@heroicons/vue/20/solid'
-	import { defineProps } from 'vue'
 	import ListCardItem from './ListCardItem.vue'
-	const props = defineProps({
+	defineProps({
 		title: String,
 		/* data to be decided @todo
 		Possibly:[
@@ -21,7 +20,7 @@
 
 <template>
 	<div class="card card-dash bg-base-100 grid w-full md:w-1/2">
-		<div class="card-body">
+		<div class="card-body py-0">
 			<h2 class="card-title text-xl font-normal">{{ title }}</h2>
 			<hr class="pb-2" />
 			<div class="card grid-flow-row px-2">
